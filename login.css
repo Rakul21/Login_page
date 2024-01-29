@@ -1,0 +1,121 @@
+*{
+    font-family: 'Segoe UI';
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+.main{
+    width: 100vw;
+    min-height:100vh;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin: 4px;
+    box-shadow:box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; ;
+    border:3px solid black;
+    border-radius: 5px;
+    backdrop-filter:blur(5px);
+    width: 400px;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    padding :30px 40px;
+}
+.header{
+    font-size: 36px;
+    font-family: Georgia;
+    font-weight: bold;
+    padding :40px;
+    color: azure;
+    text-align: center;
+}
+.content .box{
+    background:transparent;
+    width:100%;
+    height:50px;
+    position: relative;
+    margin-top:30px;
+    margin-right:5px;
+    margin-bottom: 22px;
+    
+}
+.box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border:2px solid black;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    
+
+}
+.box img{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform: translatey(-50%);
+    font-size: 20px;
+}
+.box input::placeholder{
+color: rgb(0, 0, 0);
+}
+.extra a,p{
+    text-decoration: none;
+    color: black;
+}
+.extra a:hover{
+    text-decoration: underline;
+}
+.content .extra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+    margin-top: 10px;
+}
+.extra label input{
+    color: #000000;
+    margin-right:4px;
+}
+.extra label input{
+    font-size: 30px;
+}
+.lgbtn{
+    width: 100%;
+    height: 45px;
+    background-color: azure;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.content .last{
+    font: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+.last a{
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.last a:hover{
+    text-decoration: underline;
+}
